@@ -43,10 +43,6 @@ typedef struct {
 } OneShotTimer_s;
 #endif // MAX_TIMERS
 
-/*
- *  Добавление новой задачи
- */
-
 /**
  * @code{c}
  * int8_t tmAddTask(
@@ -361,3 +357,4 @@ uint32_t get_millis (void);
 
 
 #endif // INC_TASKMAN_H_
+
